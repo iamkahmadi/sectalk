@@ -1,0 +1,28 @@
+# Backend
+/node_modules
+node_modules/
+/public/chatImages/*
+/public/chatVideos/*
+/public/chatFiles/*
+/public/chatVoiceMessages/*
+.env
+
+# Frontend
+/sectalkfrontend/node_modules/
+/sectalkfrontend/.pnp
+/sectalkfrontend/.pnp.js
+
+# testing
+/sectalkfrontend//coverage
+
+# misc
+/sectalkfrontend/.DS_Store
+/sectalkfrontend/.env.local
+/sectalkfrontend/.env.development.local
+/sectalkfrontend/.env.test.local
+/sectalkfrontend/.env.production.local
+
+
+/sectalkfrontend/npm-debug.log*
+/sectalkfrontend/yarn-debug.log*
+/sectalkfrontend/yarn-error.log*

@@ -1,0 +1,24 @@
+{
+  "name": "sectalk",
+  "version": "1.0.0",
+  "description": "My Chat App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "author": "kahmadi",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.1.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.6.1"
+  }
+}
