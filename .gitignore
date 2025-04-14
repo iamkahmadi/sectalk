@@ -1,10 +1,20 @@
 # Backend
 /node_modules
 node_modules/
+
+# Exclude contents but not folders
 /public/chatImages/*
+!/public/chatImages/.gitkeep
+
 /public/chatVideos/*
+!/public/chatVideos/.gitkeep
+
 /public/chatFiles/*
+!/public/chatFiles/.gitkeep
+
 /public/chatVoiceMessages/*
+!/public/chatVoiceMessages/.gitkeep
+
 .env
 
 # Frontend
